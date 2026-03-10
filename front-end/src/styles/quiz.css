@@ -1,0 +1,17 @@
+.quiz-wrapper .quiz-controls{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    margin-top: 14px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.quiz-wrapper span{
+    display: block;
+    min-height: 2rem;
+}
+
+.quiz-wrapper .txt-question{
+    min-height: 3rem;
+}

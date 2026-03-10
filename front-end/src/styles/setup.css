@@ -1,0 +1,9 @@
+.setup-wrapper .content-card h2{
+    text-align: center;
+}
+
+.setup-wrapper .content-card button{
+    display: block;
+    padding: 12px 40px;
+    margin: 16px auto 0;
+}

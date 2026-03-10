@@ -1,0 +1,18 @@
+.error-wrapper .content-card{
+    text-align: center;
+}
+
+.error-wrapper .content-card img{
+    height: 40px;
+    margin-top: 25px;
+}
+
+.error-wrapper .content-card h2{
+    margin-top: 25px;
+}
+
+.error-wrapper .content-card button{
+    margin: 25px auto 0;
+    display: block;
+    width: auto;
+}

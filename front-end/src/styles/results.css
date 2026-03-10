@@ -1,0 +1,41 @@
+.results-wrapper .score-box{
+    margin: 25px 0;
+    padding: 14px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border:1px solid var(--grey-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.results-wrapper .result-card{
+    margin-top: 18px;
+    padding: 16px;
+    border: 1px solid var(--grey-border);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.results-wrapper .result-card div{
+    display: grid;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.results-wrapper .result-card button{
+    text-align: start;
+    cursor: auto;
+}
+
+.results-wrapper .btn-next{
+    display:block;
+    margin:25px auto 0;
+}
