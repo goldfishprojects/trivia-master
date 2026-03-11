@@ -1,6 +1,6 @@
 import type { AnswerDto, QuestionDto, QuestionFilterDto, ResultDto } from "../types/trivia";
 
-const API_BASE = import.meta.env.API_BASE_URL ?? "http://localhost:9090/api";
+const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:9090/api";
 
 export async function fetchQuestions(filter: QuestionFilterDto): Promise<QuestionDto[]> {
   const params = new URLSearchParams();
