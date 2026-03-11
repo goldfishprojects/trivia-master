@@ -6,6 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+src/var/log/*
+!src/var/log/.gitkeep
 
 # Node / React
 node_modules
