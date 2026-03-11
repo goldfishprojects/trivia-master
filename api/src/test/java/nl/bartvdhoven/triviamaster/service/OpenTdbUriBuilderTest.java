@@ -29,7 +29,7 @@ class OpenTdbUriBuilderTest {
         filter.setCategory(21);
 
         String actualUri = OpenTdbUriBuilder.buildUri(filter);
-        String expectedUri = "?amount=5&type=multiple&difficulty=easy&category=21";
+        String expectedUri = "?amount=5&category=21&difficulty=easy&type=multiple";
         
         assertEquals(expectedUri, actualUri);
     }
